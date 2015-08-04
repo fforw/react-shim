@@ -15,8 +15,24 @@ compiled source bundle.
 
 ## Usage ##
 
-Use just "gulp" to build the web/js/main.js file and source map. 
+```bash
+gulp
+```
+
+Build the web/js/main.js file and source map. 
   
+```bash
+gulp watch
+```
 Use "gulp watch" to enter a watchify based watch mode that will keep compiling the sources while you edit.
 
 Load web/index.html in your browser.
+
+## Turning off uglifying ##
+
+To turn off uglification of the browserify bundle, you can set the env variable NO_UGLIFY
+
+
+```bash
+NO_UGLIFY=1 gulp watch
+```
