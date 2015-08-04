@@ -13,6 +13,10 @@ JS source code is in src/.
 The web directory contains a very simple HTML scaffold that loads one of the react distribution bundles and the 
 compiled source bundle.
 
+The react distribution files for react 0.13.3 are just included in this example. You might want to set up your project
+by defining a regular dependency to "react" and copying the wanted distribution files from the "dist" folder of the react
+module.
+
 ## Usage ##
 
 ```bash
