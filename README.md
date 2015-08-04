@@ -19,13 +19,13 @@ module.
 
 ## Usage ##
 
-```bash
+```sh
 gulp
 ```
 
 Build the web/js/main.js file and source map. 
   
-```bash
+```sh
 gulp watch
 ```
 Use "gulp watch" to enter a watchify based watch mode that will keep compiling the sources while you edit.
@@ -37,6 +37,6 @@ Load web/index.html in your browser.
 To turn off uglification of the browserify bundle, you can set the env variable NO_UGLIFY
 
 
-```bash
+```sh
 NO_UGLIFY=1 gulp watch
 ```
